@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Projekte\Programmierung\VSTEffectPlugIn\source\processor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Projekte\Programmierung\VSTEffectPlugIn\source\controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Projekte\Programmierung\VSTEffectPlugIn\source\entry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Projekte\Programmierung\VST_SDK\vst3sdk\public.sdk\source\main\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Projekte\Programmierung\VSTEffectPlugIn\source\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Projekte\Programmierung\VSTEffectPlugIn\source\cids.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Projekte\Programmierung\VSTEffectPlugIn\source\processor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Projekte\Programmierung\VSTEffectPlugIn\source\controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Projekte\Programmierung\VSTEffectPlugIn\resource\editor.uidesc">
+      <Filter>Contents\Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Projekte\Programmierung\VSTEffectPlugIn\resource\A4CA0C87A4B15B17A58A1494C6385842_snapshot.png">
+      <Filter>Contents\Resources\Snapshots</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Projekte\Programmierung\VSTEffectPlugIn\resource\A4CA0C87A4B15B17A58A1494C6385842_snapshot_2.0x.png">
+      <Filter>Contents\Resources\Snapshots</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Projekte\Programmierung\VSTEffectPlugIn\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\Projekte\Programmierung\VSTEffectPlugIn\resource\win32resource.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Contents">
+      <UniqueIdentifier>{222DD549-49AD-3900-BD49-78E4F1631792}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Resources">
+      <UniqueIdentifier>{2569727E-2B55-3A70-B69C-B5C043E25BD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Resources\Snapshots">
+      <UniqueIdentifier>{7412C8F8-62A6-38B8-96B6-5FD440850E95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{30C27725-36A2-39AD-879C-7F8A2EABD85D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{93B9B767-0C87-340E-82C5-346B653C7B22}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
